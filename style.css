@@ -1,0 +1,101 @@
+
+:root{
+	--myBlue:#2292a4;
+	--myBlack:#0f0a0a;
+	--myWhite:#f5efed;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: var(--myWhite);
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.form-container{
+	min-width: 400px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	margin: auto;
+	background: white;
+	overflow: hidden;
+}
+
+.title h1{
+	background: var(--myBlue);
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+form{
+	margin: 0;
+	padding: 20px 5px;
+	background: white;
+	/*position: relative;*/
+}
+
+label{
+	display: block;
+}
+
+form input{
+	padding: 10px;
+	border-radius: 5px;
+	background: transparent;
+	color: var(--myBlack);
+	/*display: block;*/
+	width: 100%;
+	border:0.5px solid rgba(0,0,0,0.5);
+	font-size: 1rem;
+		
+}
+
+input:focus{
+	outline: none;
+}
+
+form label{
+	font-size: 1rem;
+	margin: 5px 0;
+	font-size: 1.5rem;
+}
+
+textarea{
+	width: 100%;
+}
+
+button{
+	padding: 10px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	width: 100%;
+	background: var(--myBlue);
+	transition:all 0.5s ease-out;
+	font-size: 1.5rem;
+	
+}
+
+button:hover{
+	color: var(--myWhite);
+}
+
+
+
+
+
+
+
+
+
+
